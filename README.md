@@ -2,7 +2,8 @@
 Technical Assessment for LocalSearch Full Stack Typescript job position
 
 ## Localsearch Backend
-The project was made in **node v16.10** + **Express** framework. The only external package used is **Axios** as HTTP Client.
+The project was made in **node v16.10** + **Express** framework in typescript.
+The only external package used is **Axios** as HTTP Client.
 
 In order to start backend server:
 - `cd localsearch-backend`
