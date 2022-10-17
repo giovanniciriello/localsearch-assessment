@@ -15,7 +15,6 @@ const endpoint = 'https://storage.googleapis.com/coding-session-rest-api'
 const getBusinessEntry = (id: string): Promise<Partial<BusinessEntry>> => {
   return axios.get(`${endpoint}/${id}`)
     .then((response) => {
-      return response.data
       const { displayed_what, displayed_where, opening_hours } = response.data
       return { displayed_what, displayed_where, opening_hours }
     })
